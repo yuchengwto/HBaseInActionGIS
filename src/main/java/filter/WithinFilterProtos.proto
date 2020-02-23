@@ -1,0 +1,13 @@
+
+
+syntax = "proto2";
+
+option java_package = "filter";
+option java_outer_classname = "WithinFilterProtos";
+option java_generic_services = true;
+option java_generate_equals_and_hash = true;
+option optimize_for = SPEED;
+
+message WithinFilter {
+  required bytes query = 1;
+}
